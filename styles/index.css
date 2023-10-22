@@ -1,0 +1,37 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+  /*agragamos margenes*/
+*{
+    margin:0;
+    padding:0;
+}
+/*primero fijaremos la fuente predeterminada y el color */
+body{
+    font-family:"Roboto",sans-serif;
+    color:rgb(70, 50, 90);
+    padding-bottom: 50px;
+}
+/*agragamos un color y */
+.menu{
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+/*ahi afectamos todas nuestras opciones y quitamos las viñetas*/
+.menu ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+    color:#fff;
+    padding: 20px 10px;
+    transition: all 0.3 ease-in-out;
+}
+.menu a:hover{
+    color: orange;
+}
