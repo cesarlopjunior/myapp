@@ -35,3 +35,20 @@ body{
 .menu a:hover{
     color: orange;
 }
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.hero{
+    background-image: url("../img/dog.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-bottom: 20px;
+    z-index: -2;
+}
